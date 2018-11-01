@@ -1,0 +1,34 @@
+{
+  "name": "TempleWork1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lottie-react-native": "^2.5.8",
+    "react": "16.5.0",
+    "react-native": "^0.57.1",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-router-flux": "^4.0.5",
+    "react-native-shared-preferences": "^1.0.0",
+    "react-native-simple-dialogs": "^0.4.1",
+    "react-native-simple-radio-button": "^2.7.3",
+    "react-native-sqlite-storage": "^3.3.7",
+    "rn-viewpager": "^1.2.9"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.16",
+    "@types/react-native": "^0.57.2",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "^0.45.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.5.0",
+    "typescript": "^3.1.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
